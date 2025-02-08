@@ -45,9 +45,9 @@ private:
     mGameOnSound.setAudioOutput(new QAudioOutput);
     mScoreSound.setAudioOutput(new QAudioOutput);
 
-    mBustedSound.setSource(QUrl("qrc:/resources/sounds/busted.wav"));
-    mGameShotSound.setSource(QUrl("qrc:/resources/sounds/gameshot.wav"));
-    mGameOnSound.setSource(QUrl("qrc:/resources/sounds/gameon.wav"));
+    mBustedSound.setSource(QUrl("qrc:/resources/sounds/busted.mp3"));
+    mGameShotSound.setSource(QUrl("qrc:/resources/sounds/gameshot.mp3"));
+    mGameOnSound.setSource(QUrl("qrc:/resources/sounds/gameon.mp3"));
   }
 
   QMediaPlayer mBustedSound;

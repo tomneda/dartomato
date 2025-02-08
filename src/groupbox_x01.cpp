@@ -296,7 +296,7 @@ void CX01GroupBox::prepare_score_sound()
   std::stringstream ss;
   ss << std::setw(3) << std::setfill('0') << mCurrentScore;
   std::string digits = ss.str();
-  std::string strpath = "qrc:/resources/sounds/" + digits + ".wav";
+  std::string strpath = "qrc:/resources/sounds/" + digits + ".mp3";
   mSoundPath = QString::fromStdString(strpath);
 #ifndef TESTING
   mSoundHandler.set_score_sound_source(mSoundPath);
