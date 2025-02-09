@@ -37,3 +37,8 @@
 CMakeLists.txt.user
 CMakeFiles/
 *.autosave
+
+# CLion, Linux
+/cmake-build-*/
+/build/
+/.idea/

@@ -92,7 +92,7 @@ protected:
     std::stringstream ss;
     ss << std::setw(3) << std::setfill('0') << iExpectedScore;
     std::string digits = ss.str();
-    std::string expectedPath = "qrc:/resources/sounds/" + digits + ".wav";
+    std::string expectedPath = "qrc:/resources/sounds/" + digits + ".mp3";
 
     if (mBox->mSoundPath.toStdString() == expectedPath)
     {

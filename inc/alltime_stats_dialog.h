@@ -7,6 +7,7 @@
 #include <QChart>
 #include <QLineSeries>
 #include <QChartView>
+#include <QPointer>
 
 namespace Ui
 {
