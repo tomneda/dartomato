@@ -25,7 +25,10 @@ public:
     mScoreSound.audioOutput()->setMuted(iMuted);
   }
 
-  void set_score_sound_source(const QString & iSoundPath) { mScoreSound.setSource(QUrl(iSoundPath)); }
+  void set_score_sound_source(const QString & iSoundPath)
+  {
+    if (mScoreSound.source() != QUrl(iSoundPath)) mScoreSound.setSource(QUrl(iSoundPath));
+  }
   void play_score_sound() { mScoreSound.play(); }
   void play_game_on_sound() { mGameOnSound.play(); }
   void play_busted_sound() { mBustedSound.play(); }
