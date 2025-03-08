@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="focusPolicy">
-   <enum>Qt::NoFocus</enum>
+   <enum>Qt::FocusPolicy::NoFocus</enum>
   </property>
   <property name="windowTitle">
    <string>Enter score</string>
@@ -36,7 +36,7 @@
        <item>
         <spacer name="horizontalSpacer_6">
          <property name="orientation">
-          <enum>Qt::Horizontal</enum>
+          <enum>Qt::Orientation::Horizontal</enum>
          </property>
          <property name="sizeHint" stdset="0">
           <size>
@@ -82,22 +82,22 @@
             </font>
            </property>
            <property name="styleSheet">
-            <string notr="true">QLabel { color: black; font: 20pt}</string>
+            <string notr="true">QLabel { font: 20pt}</string>
            </property>
            <property name="frameShape">
-            <enum>QFrame::NoFrame</enum>
+            <enum>QFrame::Shape::NoFrame</enum>
            </property>
            <property name="frameShadow">
-            <enum>QFrame::Raised</enum>
+            <enum>QFrame::Shadow::Raised</enum>
            </property>
            <property name="text">
             <string>1st</string>
            </property>
            <property name="textFormat">
-            <enum>Qt::PlainText</enum>
+            <enum>Qt::TextFormat::PlainText</enum>
            </property>
            <property name="alignment">
-            <set>Qt::AlignCenter</set>
+            <set>Qt::AlignmentFlag::AlignCenter</set>
            </property>
           </widget>
          </item>
@@ -110,19 +110,19 @@
             </size>
            </property>
            <property name="styleSheet">
-            <string notr="true">QLabel { color: darkgreen; font: 18pt}</string>
+            <string notr="true">QLabel { color: darkgreen; font: 18pt; background-color:white}</string>
            </property>
            <property name="frameShape">
-            <enum>QFrame::Panel</enum>
+            <enum>QFrame::Shape::Panel</enum>
            </property>
            <property name="frameShadow">
-            <enum>QFrame::Sunken</enum>
+            <enum>QFrame::Shadow::Sunken</enum>
            </property>
            <property name="text">
             <string>---</string>
            </property>
            <property name="alignment">
-            <set>Qt::AlignCenter</set>
+            <set>Qt::AlignmentFlag::AlignCenter</set>
            </property>
           </widget>
          </item>
@@ -152,19 +152,19 @@
             </font>
            </property>
            <property name="styleSheet">
-            <string notr="true">QLabel { color: black; font:20pt}</string>
+            <string notr="true">QLabel { font:20pt}</string>
            </property>
            <property name="frameShape">
-            <enum>QFrame::NoFrame</enum>
+            <enum>QFrame::Shape::NoFrame</enum>
            </property>
            <property name="frameShadow">
-            <enum>QFrame::Raised</enum>
+            <enum>QFrame::Shadow::Raised</enum>
            </property>
            <property name="text">
             <string>2nd</string>
            </property>
            <property name="alignment">
-            <set>Qt::AlignCenter</set>
+            <set>Qt::AlignmentFlag::AlignCenter</set>
            </property>
           </widget>
          </item>
@@ -177,19 +177,19 @@
             </size>
            </property>
            <property name="styleSheet">
-            <string notr="true">QLabel { color: darkgreen; font: 18pt}</string>
+            <string notr="true">QLabel { color: darkgreen; font: 18pt; background-color:white}</string>
            </property>
            <property name="frameShape">
-            <enum>QFrame::Panel</enum>
+            <enum>QFrame::Shape::Panel</enum>
            </property>
            <property name="frameShadow">
-            <enum>QFrame::Sunken</enum>
+            <enum>QFrame::Shadow::Sunken</enum>
            </property>
            <property name="text">
             <string>---</string>
            </property>
            <property name="alignment">
-            <set>Qt::AlignCenter</set>
+            <set>Qt::AlignmentFlag::AlignCenter</set>
            </property>
           </widget>
          </item>
@@ -219,13 +219,13 @@
             </font>
            </property>
            <property name="styleSheet">
-            <string notr="true">QLabel { color: black; font: 20pt}</string>
+            <string notr="true">QLabel { font: 20pt}</string>
            </property>
            <property name="frameShape">
-            <enum>QFrame::NoFrame</enum>
+            <enum>QFrame::Shape::NoFrame</enum>
            </property>
            <property name="frameShadow">
-            <enum>QFrame::Raised</enum>
+            <enum>QFrame::Shadow::Raised</enum>
            </property>
            <property name="lineWidth">
             <number>2</number>
@@ -234,7 +234,7 @@
             <string>3rd</string>
            </property>
            <property name="alignment">
-            <set>Qt::AlignCenter</set>
+            <set>Qt::AlignmentFlag::AlignCenter</set>
            </property>
           </widget>
          </item>
@@ -247,19 +247,19 @@
             </size>
            </property>
            <property name="styleSheet">
-            <string notr="true">QLabel { color: darkgreen; font: 18pt}</string>
+            <string notr="true">QLabel { color: darkgreen; font: 18pt; background-color:white}</string>
            </property>
            <property name="frameShape">
-            <enum>QFrame::Panel</enum>
+            <enum>QFrame::Shape::Panel</enum>
            </property>
            <property name="frameShadow">
-            <enum>QFrame::Sunken</enum>
+            <enum>QFrame::Shadow::Sunken</enum>
            </property>
            <property name="text">
             <string>---</string>
            </property>
            <property name="alignment">
-            <set>Qt::AlignCenter</set>
+            <set>Qt::AlignmentFlag::AlignCenter</set>
            </property>
           </widget>
          </item>
